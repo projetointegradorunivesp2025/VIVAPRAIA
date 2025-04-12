@@ -1,0 +1,21 @@
+#url amigavel
+RewriteEngine On
+RewriteBase /projetos/UNIVESP-PI3/
+
+# Se não for arquivo nem pasta real, reescreve
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redireciona tudo pra index.php
+# capture qualquer coisa na URL, sem diferenciar maiúsculas/minúsculas, e pare de processar mais regras depois disso
+#RewriteRule ^(.*)$ index.php?url=$1 [NC,L]
+RewriteRule ^(.*)$ index.php [NC,L]
+
+
+
+
+
+
+
+
+

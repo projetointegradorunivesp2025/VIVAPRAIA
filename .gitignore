@@ -1,0 +1,22 @@
+# Arquivos temporarios
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Configuracoes locais (ex: senhas, chaves API)
+.env
+
+# Pastas de cache 
+cache/
+tmp/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Configuracoes de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
